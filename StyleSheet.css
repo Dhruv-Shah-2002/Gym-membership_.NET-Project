@@ -1,0 +1,83 @@
+﻿body {
+    background: radial-gradient(circle at center, white, rgba(113, 129, 191, 0.5));
+}
+
+h1, h2 {
+    background-color: #e6f2ff;
+    color: tomato;
+    margin: auto;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+}
+/*css for menu*/
+.menucontent, a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 8px;
+    background-color: #808080;
+}
+
+li a:hover {
+    background-color: #5694f1;
+}
+
+.menucontent {
+    float: left;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: #808080;
+    overflow: hidden;
+}
+
+/*CSS for insertion data*/
+.custinfo {
+    background-color: #e6f2ff;
+    margin: auto;
+    padding: 20px;
+    width: fit-content;
+    font-size: 20px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.content {
+    margin: auto auto auto 6px;
+}
+
+#Button1, #Button2, #Button3, #btninsert, #btnupdate, #btnDelete, #btnadd, #btndelete, #btncreate, #btnUpdate {
+    background-color: #f98a76;
+    font-size: 16px;
+    border: 2px solid snow;
+}
+
+    #Button1:hover, #Button2:hover {
+        background-color: tomato;
+    }
+
+/*For 3d background canvas css*/
+#bg {
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#TextArea1 {
+    height: 48px;
+    width: 184px;
+}
+
+#text_Area_al1 {
+    width: 182px;
+}
+
+#text_Area_al2 {
+    width: 181px;
+}
